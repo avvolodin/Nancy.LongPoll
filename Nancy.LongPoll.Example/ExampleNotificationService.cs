@@ -10,10 +10,10 @@ namespace Nancy.LongPoll.Example
 {
   public class ExampleNotificationService
   {
-    PollService _PollService = null;
+    IPollService _PollService = null;
     public bool RunNotifications { get; set; }
 
-    public ExampleNotificationService(PollService pollService)
+    public ExampleNotificationService(IPollService pollService)
     {
       if (pollService == null) throw new ArgumentNullException("pollService");
 

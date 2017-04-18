@@ -14,7 +14,7 @@ namespace Nancy.LongPoll.Example
     {
       base.ConfigureApplicationContainer(container);
 
-      container.Register<PollService>().AsSingleton();
+      container.Register<IPollService, PollService>().AsSingleton();
       container.Register<ExampleNotificationService>().AsSingleton();
     }
   }

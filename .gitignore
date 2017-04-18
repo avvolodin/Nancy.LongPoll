@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Nancy.LongPoll/bin/Debug
+/Nancy.LongPoll/obj/Debug
+/Nancy.LongPoll.Example/bin/Debug
+/Nancy.LongPoll.Example/obj/Debug
+/Nancy.LongPoll.Test/bin/Debug
+/Nancy.LongPoll.Test/obj/Debug
+/packages
